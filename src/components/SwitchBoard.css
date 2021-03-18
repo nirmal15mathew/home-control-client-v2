@@ -1,0 +1,50 @@
+.switch-board {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.control-switch {
+  width: 150px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  padding: 0.7em;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 1em;
+  margin: 0.5em;
+  transition: background-color 200ms;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.01);
+}
+.control-switch:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-switch {
+  width: 182px;
+  height: 158px;
+  padding: 1em;
+  border-radius: 1em;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px dashed grey;
+  cursor: pointer;
+  color: grey;
+  transition: color, border 200ms;
+  background-color: transparent;
+}
+.add-switch:hover {
+  border-color: white;
+  color: white;
+}
+.switch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
